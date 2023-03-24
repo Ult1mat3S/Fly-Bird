@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PipeMiddleScript : MonoBehaviour
 {
-
     public LogicScript logic;
 
     // Start is called before the first frame update
@@ -16,7 +15,7 @@ public class PipeMiddleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
